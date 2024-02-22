@@ -1,1 +1,109 @@
-<!-- Aquí va tu información-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    <link rel="icon" type="image/x-icon" href="/Ejercicios-Intro-HTML---CH38/img/heart.png">
+    <style>
+        /* Estilos para el cuerpo */
+        body {
+            background-color: #c4dffc; /* Color de fondo */
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Tipo de fuente */
+        }
+
+        /* Estilos para el contenedor principal */
+        .container {
+            text-align: center; /* Centra el contenido horizontalmente */
+        }
+
+        /* Estilos para el panel de imágenes */
+        .panel {
+            display: inline-block; /* Permite que el panel ocupe solo el ancho necesario */
+            white-space: nowrap; /* Evita que las imágenes se envuelvan en líneas */
+            overflow: hidden; /* Oculta el contenido que desborda el contenedor */
+            animation: desplazamiento 10s linear infinite; /* Aplica la animación de desplazamiento */
+        }
+
+         /* Animación de desplazamiento */
+         @keyframes desplazamiento {
+            0% { transform: translateX(0); } /* Inicia desde la posición inicial */
+            60.00% { transform: translateX(-100%); } /* Muestra la segunda imagen */
+            60.00% { transform: translateX(-200%); } /* Muestra la tercera imagen */
+            100% { transform: translateX(0); } /* Vuelve a la posición inicial */
+        }
+
+        /* Estilos para el título */
+        h1 {
+            margin-top: 20px; /* Espacio superior */
+            margin-bottom: 20px; /* Espacio inferior */
+        }
+
+        /* Estilos para las imágenes dentro del panel */
+        .panel img {
+            display: inline-block; /* Muestra las imágenes como bloques en línea */
+            width: 200px; /* Ajusta el ancho de las imágenes */
+            margin-right: 20px; /* Agrega espacio entre las imágenes */
+        }
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><img src="/Ejercicios-Intro-HTML---CH38/img/NAME.png" alt="Nombre con corazon"></h1>
+
+        <div class="panel">
+            <!-- Imágenes que forman parte del panel -->
+            <img src="/Ejercicios-Intro-HTML---CH38/img/imagen1.jpeg" alt="Foto mia con blusa azul"> <!-- Primera imagen -->
+            <img src="/Ejercicios-Intro-HTML---CH38/img/imagen2.jpeg" alt="Foto mia con lentes de sol"> <!-- Segunda imagen -->
+            <img src="/Ejercicios-Intro-HTML---CH38/img/imagen3.jpeg" alt="Foto mia en el espejo"> <!-- Tercera imagen -->
+        </div>
+
+        <p style="text-align:center, justify;"> <!--Jutifico y centro el texto-->
+            ¡Hola!, mi nombre es Adriana Bacilio nací el 26 de julio de 1998 en Guadalajara Jalisco México, mis padres 
+            se llaman Eva Adriana Bacilio y Rafael Flores Alvárez. Tengo dos hermanos, Mariana Lizeth de 18 años
+            y Andrés Daniel de 23 años. Estudié Ingeniería Mecatrónica con especialidad en robótica en el Centro de Enseñanza 
+            Técnica Industrial, actualmente estudio para ser Desarrolladora de Java FullStack en Generation Mx. </p>
+        </ul>
+
+    </div>
+
+    <h1><img src="/Ejercicios-Intro-HTML---CH38/img/hobbies.png" alt="Nombre de hobbies con likes al lado"></h1>
+        <ul>
+            <li>Escuchar Música</li>
+            <li>Aprender Sobre Tecnología</li>
+            <li>Aprender Idiomas y diversidad cultural</li>
+            <li>Leer</li>
+            <li>Jugar con mis perrhijos</li> <ul>
+                <p><li>Covi</li>
+                <li>Nayla</li>
+                <li>Kala</li>
+                <li>Daisy</li>
+                <li>Hanna</li></p>
+        </ul>
+
+    <h1><img src="/Ejercicios-Intro-HTML---CH38/img/musica.png" alt="Nombre de musica con icono al lado"></h1>
+        <ol>
+            
+            <h3><p><li>DPR IAN - Don't Go Insane</li></h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7qYvBLzCWtc" frameborder="0" allowfullscreen></iframe></p>
+            <h3><p><li>Audioslave - Like a Stone</li></h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fLc-qAcbylA" frameborder="0" allowfullscreen></iframe></p>
+            <h3><p><li>Jackson Wang - LMLY</li></h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RXibSIG3P-U" frameborder="0" allowfullscreen></iframe></p>
+            <h3><p><li>Jungkook - Still With You</li></h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YrsimYIeb8g" frameborder="0" allowfullscreen></iframe></p>
+            <h3><p><li>Artic Monkeys - Do I Wanna Know?</li></h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Kq2PmOU5sVY" frameborder="0" allowfullscreen></iframe></p>
+           
+            </ol>
+
+
+
+</body>
+</html>
+
